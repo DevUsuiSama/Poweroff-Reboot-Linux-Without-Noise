@@ -15,5 +15,4 @@ int main(int argc, char *argv[])
     EvenUnix eu(iu.get_window(), iu.get_build());
     eu.on_create();
     return app->run(*iu.get_window());
-    return 0;
 }
