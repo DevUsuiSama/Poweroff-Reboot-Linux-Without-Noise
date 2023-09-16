@@ -4,8 +4,8 @@
  * Copyright (c) 2022 UsuiSama SA
  */
 
-#include "InitUnix/InitUnix.hpp"
-#include "EvenUnix/EvenUnix.hpp"
+#include "../include/InitUnix.hpp"
+#include "../include/EvenUnix.hpp"
 
 int main(int argc, char *argv[])
 {

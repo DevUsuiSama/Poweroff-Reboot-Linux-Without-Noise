@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2021 UsuiSama
  */
-#include "EvenUnix.hpp"
+#include "../include/EvenUnix.hpp"
 
 EvenUnix::EvenUnix(Gtk::Window *win, Glib::RefPtr<Gtk::Builder> build)
 {

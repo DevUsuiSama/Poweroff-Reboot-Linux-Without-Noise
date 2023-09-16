@@ -3,11 +3,11 @@
  *
  * Copyright (c) 2021 UsuiSama
  */
-#include "InitUnix.hpp"
+#include "../include/InitUnix.hpp"
 
 void InitUnix::init()
 {
-    build = Gtk::Builder::create_from_file("SistemaSinRuido.glade");
+    build = Gtk::Builder::create_from_file("../views/SistemaSinRuido.glade");
     build->get_widget<Gtk::Window>("wSistemaSinRuido", win);
     add_window(*win);
 }
